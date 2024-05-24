@@ -23,4 +23,22 @@ function celsiusToFahrenheit($celsius) {
 function fahrenheitToCelsius($fahrenheit) {
     return ($fahrenheit - 32) * 5/9;
 }
+
+function cmToM($cm) {
+    return $cm / 100;
+}
+
+function mToCm($m) {
+    return $m * 100;
+}
+
+function mToKm($m) {
+    return $m / 1000;
+}
+
+function kmToM($km) {
+    return $km * 1000;
+}
+
+
 ?>

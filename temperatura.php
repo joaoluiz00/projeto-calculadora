@@ -23,10 +23,10 @@
     
     <div class="div-conteudo">
     <form method="POST" action="logica/processamentoTemp.php">
-            <label for="temperatura">Temperatura:</label>
+            <label for="temperatura">Digite uma temperatura</label>
             <input type="text" name="temperatura" id="temperatura" placeholder="Digite a temperatura">
             
-            <label for="conversao">Digite uma Temperatura:</label>
+            <label for="conversao"></label>
             <select name="conversao" id="conversao">
                 <option value="celsiusToFahrenheit">Celsius para Fahrenheit</option>
                 <option value="fahrenheitToCelsius">Fahrenheit para Celsius</option>

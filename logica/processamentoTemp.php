@@ -1,10 +1,10 @@
 <?php
-
+session_start();
 require_once "funcoesCalculo.php"; // Verifique se o caminho está correto
 
-session_start();
 
-if(isset($_POST['temperatura']) && isset($_POST['conversao'])) {
+
+if(!empty($_POST['temperatura']) && !empty($_POST['conversao'])) {
     $temperatura = floatval($_POST['temperatura']);
     $conversao = $_POST['conversao'];
     

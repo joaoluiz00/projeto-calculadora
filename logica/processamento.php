@@ -28,11 +28,11 @@ if(!empty($_GET['inputNum1']) && !empty($_GET['inputNum2'])){
 
     //echo $resultado;
     //Guarda o resultado na variável de session
-    //$_SESSION['resultado'] = $resultado;
+    $_SESSION['resultado'] = $resultado;
 
     //Comando HEADER (PHP) redireciona para uma página especificada
-    // header('location:../index.php');
-    // die();
+    header('location:../index.php');
+     die();
 }
 
 
